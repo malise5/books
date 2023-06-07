@@ -41,7 +41,7 @@ function SignUp({ toggleForm }) {
           id="password"
           name="password"
         />
-        <button type="submit">Log In</button>
+        <button type="submit">Sign Up</button>
       </form>
       <button className="link-btn" onClick={() => toggleForm("login")}>
         Already have an account? Login here.
